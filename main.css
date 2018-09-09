@@ -1,0 +1,22 @@
+body,html{
+  background-size:cover;
+  height:100%;
+  font-family: 'Roboto Mono',  monospace;
+  font-size:15px;
+  display:flex;
+  align-items:center;
+  justify-content:center
+}
+.card {
+  width: 200px;
+  background: #ffffff;
+  border-radius: 5px;
+  -webkit-animation: fadein 2s;
+          animation: fadein 2s;
+  overflow:hidden;
+  z-index: 999;
+}
+
+#rest{
+  color:#4a6d62
+}
